@@ -1,0 +1,158 @@
+.home-body-container {
+  margin-left: 150px;
+  margin-top: 54px;
+  margin-right: 144px;
+}
+
+.search-container {
+  background-color: #2f2f43;
+  margin-left: 158px;
+  margin-right: 158px;
+  height: 72px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 112px;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  color: #94a3b8;
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-bottom: 24px;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 90%;
+  height: 72px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 8px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #94a3b8;
+}
+
+.total-cases-container {
+  margin-left: 80px;
+  margin-right: 87px;
+  margin-bottom: 106px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  height: 24px;
+  width: 75px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ff073a;
+  text-align: center;
+}
+
+.card-description {
+  height: 24px;
+  width: 110px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ff073a;
+}
+
+.active {
+  color: #007bff;
+}
+
+.recovered {
+  color: #28a745;
+}
+
+.deceased {
+  color: #6c757d;
+}
+
+.card-icon {
+  width: 38px;
+  height: 38px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.table-container {
+  margin-left: 150px;
+  margin-right: 144px;
+  border: 1px solid #475569;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+}
+
+.table-side-heading {
+  display: flex;
+  align-items: center;
+}
+
+.table-headings-container {
+  border-bottom: 1px solid #475569;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.table-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.filter-icon {
+  color: #94a3b8;
+  margin-left: 16px;
+  width: 20px;
+  height: 20px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.home-loader-container {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.home-error-view-container {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

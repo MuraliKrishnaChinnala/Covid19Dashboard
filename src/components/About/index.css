@@ -1,0 +1,156 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #161625;
+}
+
+.about-body-container {
+  margin-left: 150px;
+  margin-top: 54px;
+  margin-right: 144px;
+}
+
+.about-heading {
+  color: #f8fafc;
+  height: 64px;
+  width: 129px;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-update {
+  color: #94a3b8;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-side-heading {
+  height: 36px;
+  width: 469px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e2e8f0;
+  margin-bottom: 30px;
+}
+
+.error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .error-view-container {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 70%;
+    padding-bottom: 0;
+  }
+}
+
+.failure-img {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.failure-heading-text {
+  font-family: Roboto;
+  font-size: 24x;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cbd5e1;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-heading-text {
+    height: 48px;
+    font-size: 32px;
+  }
+}
+
+.failure-description {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #94a3b8;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-description {
+    font-size: 20px;
+  }
+}
+
+.loader-container {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .loader-container {
+    width: 70%;
+  }
+}
+
+.retry-button {
+  height: 48px;
+  width: 88px;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .retry-button {
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
+
+.faq-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
